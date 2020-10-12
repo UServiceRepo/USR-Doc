@@ -34,4 +34,4 @@ Certain API may be restricted to limited microservices.
 The Route microservice handles all routing information once the Auth microservice hands off the request.
 This is only accessible from Auth microservice.
 ### API
-- `/route` GET: It receives the request only from Auth microservice and checks token to ensure. It then checks the API request information and confirms the API exists. Then makes the appropriate request to the relevant microservice/API.
+- `/route` GET: It receives the request only from Auth microservice and checks token to ensure. It then checks the API request information and confirms the API exists. Then makes the appropriate request to the relevant microservice/API. If the API is not recognized, it returns 404 message.
