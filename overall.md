@@ -1,5 +1,7 @@
 # Overall Design Goals
+
 ![Overall View](overall.png)
+
 This team aims to create a set of microservices that are commonly used in a typical projects.
 Initially, the project aims to define and implement three microservices:
 - Auth microservice
