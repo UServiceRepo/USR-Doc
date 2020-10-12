@@ -6,7 +6,7 @@ This definition may be updated.
 ## Definition and Uses
 ### Extern JSON 
 #### Definition
-```json
+```
 {
   "auth":{
     <AuthReq JSON>
@@ -20,7 +20,7 @@ This definition may be updated.
 Input to Auth microservice
 ### AuthReq JSON
 #### Definition
-```json
+```
 {
   "id":"",
   "pass":"",
@@ -31,7 +31,7 @@ Input to Auth microservice
 output from Auth microservice to Database microservice's POST /authenticate as well as response back to Auth with a token.
 ### TokenRes JSON
 #### Definition
-```json
+```
 {
   "token":""
 }
@@ -40,7 +40,7 @@ output from Auth microservice to Database microservice's POST /authenticate as w
 response back to user from Auth microservice's GET /authenticate
 ### Route JSON
 #### Definition
-```json
+```
 {
   "api":"",
   "method":"",
