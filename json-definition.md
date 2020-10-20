@@ -22,9 +22,10 @@ Input to Auth microservice
 #### Definition
 ```
 {
-  "id":"",
-  "pass":"",
-  "token":""
+  "id":<string>,
+  "pass":<string>,
+  "token":<string>,
+  "valid":<bool>
 }
 ```
 #### Use
@@ -33,7 +34,7 @@ output from Auth microservice to Database microservice's POST /authenticate as w
 #### Definition
 ```
 {
-  "token":""
+  "token":<string>
 }
 ```
 #### Use
@@ -42,8 +43,8 @@ response back to user from Auth microservice's GET /authenticate
 #### Definition
 ```
 {
-  "api":"",
-  "method":"",
+  "api":<string>,
+  "method":<string>,
   "req":{
     <information necessary for the request to process by the appropriate end-point microservice.>
   }
